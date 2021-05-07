@@ -13,11 +13,11 @@ DEFAULT_COUNTRY_CODE: AU
 # Locale for translation.
 LOCALE: en
 # For multilingual - ENV doesn't have array so pass it as string with commas
-AVAILABLE_LOCALES: en,es
+AVAILABLE_LOCALES: en,es,it
 # Spree zone.
-CHECKOUT_ZONE: Australia
+CHECKOUT_ZONE: Italy
 # Find currency codes at http://en.wikipedia.org/wiki/ISO_4217.
-CURRENCY: AUD
+CURRENCY: EUR
 
 # The whenever gem can set the `MAILTO` variable for our cron jobs.
 # You can define an email address to notify if any job outputs something.
@@ -34,7 +34,7 @@ SMTP_PASSWORD: 'f00d'
 
 # Optional mail settings
 # MAIL_SECURE_CONNECTION: 'TLS' # 'None' (default), 'SSL' or 'TLS'
-# MAILS_FROM: hello@example.com
+MAILS_FROM: info@query.city
 # MAIL_BCC: manager@example.com
 
 # Javascript error reporting via Bugsnag.
@@ -49,7 +49,7 @@ SMTP_PASSWORD: 'f00d'
 #DISCOURSE_URL: "https://noticeboard.openfoodnetwork.org.au"
 
 # see: https://developers.google.com/maps/documentation/javascript/get-api-key
-# GOOGLE_MAPS_API_KEY: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+GOOGLE_MAPS_API_KEY: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 # Stripe Connect details for instance account
 # Find these under 'API keys' and 'Connect' in your Stripe account dashboard -> Account Settings
