@@ -49,7 +49,7 @@ MAILS_FROM: info@query.city
 #DISCOURSE_URL: "https://noticeboard.openfoodnetwork.org.au"
 
 # see: https://developers.google.com/maps/documentation/javascript/get-api-key
-GOOGLE_MAPS_API_KEY: AIzaSyBaAtkGMr1cYHdBV2GMHG_f0GPVHRHX_fc
+GOOGLE_MAPS_API_KEY: mykey
 
 # Stripe Connect details for instance account
 # Find these under 'API keys' and 'Connect' in your Stripe account dashboard -> Account Settings
